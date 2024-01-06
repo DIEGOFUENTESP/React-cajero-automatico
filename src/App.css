@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../src/assets/fondo.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  min-height: 100vh;
+  color:black;
+}
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.iniciar-seccion {
+  padding: 10px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: #0056b3;
+  color: #fff;
+  width: 100%;
+}
+.nuevo-usuario{
+  padding: 10px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: green;
+  color: #fff;
+  width: 100%;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.titulo{
+  font-size: 2rem; /* Tamaño de fuente */
+  color: yellowgreen;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;  
+}
+.logo{
+  justify-content: center;
+}
+button {
+  padding: 10px 20px; /* Ajusta el relleno (padding) según sea necesario */
+  margin: 5px; /* Ajusta los márgenes según sea necesario */
+  font-size: 16px; /* Tamaño del texto */
+  border: none; /* Quita los bordes */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Borde redondeado */
+  background-color: #3498db; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.bold{
+  font-weight: bold;
+}
+.azul{
+  color: #3498db;
+}
+.rojo{
+  color: red;
+}
+.verde{
+  color:green;
+}
